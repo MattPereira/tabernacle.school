@@ -1,2 +1,31 @@
-body {
+#mainNavbar {
+  font-weight: 400;
+  //   position: absolute;
+  //   top: 0;
+  //   right: 0;
+  //   left: 0;
+  //   z-index: 3;
+  .navbar-brand h3 {
+    font-weight: 100;
+  }
+  .nav-item {
+    font-size: 1.4rem;
+  }
+  .nav-link:hover {
+    transition: border 0.2s;
+    border-bottom: 1px solid white;
+  }
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; // remove the gap so it doesn't close
+  }
+}
+
+#core {
+  min-height: 300px;
+}
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+  filter: invert(100%);
 }
