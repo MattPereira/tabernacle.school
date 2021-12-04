@@ -25,6 +25,10 @@ app.get('/academics', (req, res) => {
     res.render('academics')
 })
 
+app.get('/campus', (req, res) => {
+    res.render('campus')
+})
+
 app.listen(3000, () => {
     console.log('listening on port 300')
 })
