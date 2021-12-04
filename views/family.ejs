@@ -1,0 +1,232 @@
+<%- include('partials/head.ejs') %> 
+
+<%- include('partials/navbars.ejs') %> 
+
+<section id="familyShowcase">
+    <div class="container">
+        <h1 class="display-2 text-center">Family Dashboard</h1>
+    </div>
+</section>
+
+<ul class="nav nav-pills bg-info d-flex justify-content-around py-2 px-5 d-none d-md-flex">
+    <li class="nav-item">
+        <a class="nav-link btn btn-danger border bg-white rounded-pill" href="">Tiger Life</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link btn btn-danger border bg-white rounded-pill" aria-current="page" href="">Portals</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link btn btn-danger border bg-white rounded-pill" aria-current="page" href="">School Info</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link btn btn-danger border bg-white rounded-pill" href="">Charity</a>
+    </li>
+</ul>
+
+<section id="tigerLife" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="display-4 text-center">Tiger Life</h2>
+        <div class="row my-5">
+            <div class="col-md-6 justify-content-center">
+                <h5 class="display-6 text-center">Weekly Newsletter</h5>
+                <div class="d-flex justify-content-center">
+                    <a href="">
+                        <img src="images/weeklyNewsletter.jpg" class="img-fluid center-cropped rounded-circle"  alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h5 class="display-6 text-center">Student Photos</h5>
+                <div class="d-flex justify-content-center">
+                    <a href="">
+                        <img src="images/studentPhotoLogo.jpg" class="img-fluid center-cropped rounded-circle" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-md-6 justify-content-center">
+                <h5 class="display-6 text-center">Tiger Athletics</h5>
+                <div class="d-flex justify-content-center">
+                    <a href="">
+                        <img src="images/tigerAthleticsLogo.jpg" class="img-fluid center-cropped rounded-circle"  alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h5 class="display-6 text-center">Summer Daycare</h5>
+                <div class="d-flex justify-content-center">
+                    <a href="">
+                        <img src="images/summerDCLogo.png" class="img-fluid center-cropped rounded-circle"  alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-md-6 justify-content-center">
+                <h5 class="display-6 text-center">Spelling Bee 2020</h5>
+                <div class="d-flex justify-content-center">
+                    <a href="">
+                        <img src="images/spellingBeeLogo.jpg" class="img-fluid center-cropped rounded-circle"  alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h5 class="display-6 text-center">STEM Fair</h5>
+                <div class="d-flex justify-content-center">
+                    <a href="">
+                        <img src="images/stemLogo.png" class="img-fluid center-cropped rounded-circle"  alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-md-6 justify-content-center">
+                <h5 class="display-6 text-center">Junior High Awards</h5>
+                <div class="d-flex justify-content-center">
+                    <a href="">
+                        <img src="images/jrHighAwardLogo.png" class="img-fluid center-cropped rounded-circle"  alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h5 class="display-6 text-center">Parent Orientation</h5>
+                <div class="d-flex justify-content-center">
+                    <a href="">
+                        <img src="images/parentOrientationLogo.jpg" class="img-fluid center-cropped rounded-circle"  alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="portals" class="py-5">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-4">
+                <img src="images/ignitia.png" class="img-fluid" alt="">
+                <br>
+                <a href="https://tabernacleca.ignitiaschools.com/owsoo/login/auth" class="btn btn-lg btn-outline-success">Login</a>
+            </div>
+            <div class="col-md-4">
+                <h5 class="mb-3 display-6">Choice Lunch</h5>
+                <img src="images/choiceLunch.jpg" class="img-fluid" alt="">
+                <br>
+                <a href="https://www.choicelunch.com/" class="btn btn-lg btn-outline-success">Login</a>
+            </div>
+            <div class="col-md-4">
+                <h5 class="mb-3 display-6">Facts/Renweb</h5>
+                <img src="images/factsLogo.jpg" alt="">
+                <br>
+                <a href="https://logins2.renweb.com/logins/ParentsWeb-Login.aspx" class="btn btn-lg btn-outline-success">Login</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="currentInfo" class="bg-info py-5">
+    <div class="container">
+        <h2 class="display-4 text-center">2021/22 School Information</h2>
+        <div class="row py-5 text-center">
+            <div class="col-md-3">
+                <i class="fas fa-book fa-10x mb-3"></i>
+                <br>
+                <a href="pdfs/schoolHandbook22.pdf" class="btn btn-warning">School Handbook</a>
+            </div>
+            <div class="col-md-3">
+                <i class="fas fa-user-friends fa-10x mb-3"></i>
+                <br>
+                <a href="" class="btn btn-warning">Parent Orientation</a>
+            </div>
+            <div class="col-md-3">
+                <i class="fas fa-money-check fa-10x mb-3"></i>
+                <br>
+                <a href="" class="btn btn-warning">21/22 Tuition</a>
+            </div>
+            <div class="col-md-3">
+                <i class="fas fa-question-circle fa-10x mb-3"></i>
+                <br>
+                <a href="" class="btn btn-warning">FACTS (Renweb) Help</a>
+            </div>
+        </div>
+        <div class="row py-5 text-center">
+            <div class="col-md-3">
+                <i class="fas fa-parachute-box fa-10x mb-3"></i>
+                <br>
+                <a href="" class="btn btn-warning">Supply List</a>
+            </div>
+            <div class="col-md-3">
+                <i class="fas fa-user-tie fa-10x mb-3"></i>
+                <br>
+                <a href="" class="btn btn-warning">Uniform Guidlines</a>
+            </div>
+            <div class="col-md-3">
+                <i class="fas fa-exclamation-triangle fa-10x mb-3"></i>
+                <br>
+                <a href="" class="btn btn-warning">JR High Discipline Policy</a>
+            </div>
+            <div class="col-md-3">
+                <i class="fas fa-calendar-alt fa-10x mb-3"></i>
+                <br>
+                <a href="" class="btn btn-warning">Calendar PDF</a>
+            </div>
+        </div>
+        <div class="row py-5 text-center">
+            <div class="col-md-3">
+                <i class="fas fa-clinic-medical fa-10x mb-3"></i>
+                <br>
+                <a href="" class="btn btn-warning">Medication Authorization Form</a>
+            </div>
+            <div class="col-md-3">
+                <i class="fas fa-laptop-code fa-10x mb-3"></i>
+                <br>
+                <a href="" class="btn btn-warning">Technology Agreement</a>
+            </div>
+            <div class="col-md-3">
+                <i class="fas fa-car-side fa-10x mb-3"></i>
+                <br>
+                <a href="" class="btn btn-warning">Vehicle Driver Form</a>
+            </div>
+            <div class="col-md-3">
+                <i class="fas fa-basketball-ball fa-10x mb-3"></i>
+                <br>
+                <a href="" class="btn btn-warning">Sports Medical Approval Form</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="charity" class="py-5">
+    <div class="container">
+        <h2 class="display-4 text-center">Charity</h2>
+            <div id="amazonSmile">
+                <div class="d-flex justify-content-center">
+                    <a href="smile.amazon.com">
+                        <img src="images/amazonSmile.png" class="img-fluid mb-5" alt="">
+                    </a>
+                </div>
+                <p>AmazonSmile is a program that donates 0.5% of your eligible purchases on Amazon to a charity of your choice. All you need to do is start your shopping at <a href="https://smile.amazon.com">smile.amazon.com</a>. The donation will be made at no extra cost to you and you can choose from nearly one million public charitable organizations.</p>
+                <h5>Explanation</h5>
+                <p><a href="https://smile.amazon.com">AmazonSmile</a> is a website operated by Amazon with the same products, prices, and shopping features as Amazon.com. The difference is that when you shop on AmazonSmile, the AmazonSmile Foundation will donate 0.5% of the purchase price of eligible products to the charitable organization of your choice. Please choose Tabernacle Christian School in Concord, CA.</p>
+                <h5>How To Start Using AmazonSmile Today!</h5>
+                <p>Sign in to <a href="https://smile.amazon.com">smile.amazon.com</a> on your desktop or mobile phone browser. Search for Tabernacle Christian School and make sure to choose the one in Concord, CA!</p>
+                <h5>AmazonSmile With Amazon App</h5>
+                <ol>
+                    <li>Download or update to the latest version of the Amazon Shopping app on your phone. You can find it in the <a href="https://apps.apple.com">App Store</a> for iOS or <a href="https://play.google.com">Google Play</a> for Android.</li>
+                    <li>Open the app and find ’Settings’ in the main menu (☰). Tap on ‘AmazonSmile’ and follow the on-screen instructions to turn on AmazonSmile on your phone.</li>
+                </ol>
+            </div>
+            <div id="escrip" class="d-flex justify-content-center">
+                <img src="images/escrip.png" class="img-fluid" alt="">
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<%- include('partials/footer.ejs') %> 

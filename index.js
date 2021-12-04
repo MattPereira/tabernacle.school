@@ -29,6 +29,10 @@ app.get('/campus', (req, res) => {
     res.render('campus')
 })
 
+app.get('/family', (req, res) => {
+    res.render('family')
+})
+
 app.listen(3000, () => {
     console.log('listening on port 300')
 })
