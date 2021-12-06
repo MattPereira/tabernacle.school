@@ -11118,6 +11118,12 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.section-hr {
+  width: 150px;
+  margin: auto;
+  border-top: 3px solid;
+}
+
 #mainNavbar {
   font-weight: 400;
 }
