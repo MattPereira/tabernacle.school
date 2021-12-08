@@ -151,6 +151,25 @@ app.get('/facultyProfiles/amieRobison', (req, res) => {
     res.render('facultyProfiles/amieRobison')
 })
 
+app.get('/facultyProfiles/judyBurmeister', (req, res) => {
+    res.render('facultyProfiles/judyBurmeister')
+})
+
+app.get('/facultyProfiles/rebeccaKelly', (req, res) => {
+    res.render('facultyProfiles/rebeccaKelly')
+})
+
+app.get('/facultyProfiles/kimberlynSchmitz', (req, res) => {
+    res.render('facultyProfiles/kimberlynSchmitz')
+})
+
+app.get('/facultyProfiles/kristenMcDermott', (req, res) => {
+    res.render('facultyProfiles/kristenMcDermott')
+})
+
+app.get('/facultyProfiles/margaretTrice', (req, res) => {
+    res.render('facultyProfiles/margaretTrice')
+})
 
 
 app.listen(3000, () => {
