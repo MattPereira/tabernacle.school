@@ -107,6 +107,14 @@ app.get('/facultyProfiles/jasonStone', (req, res) => {
     res.render('facultyProfiles/jasonStone')
 })
 
+app.get('/facultyProfiles/brendaChapman', (req, res) => {
+    res.render('facultyProfiles/brendaChapman')
+})
+
+app.get('/facultyProfiles/aureliusMorgan', (req, res) => {
+    res.render('facultyProfiles/aureliusMorgan')
+})
+
 
 
 
