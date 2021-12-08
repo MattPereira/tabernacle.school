@@ -171,6 +171,37 @@ app.get('/facultyProfiles/margaretTrice', (req, res) => {
     res.render('facultyProfiles/margaretTrice')
 })
 
+app.get('/facultyProfiles/vernTaylor', (req, res) => {
+    res.render('facultyProfiles/vernTaylor')
+})
+
+app.get('/facultyProfiles/theresaKukla', (req, res) => {
+    res.render('facultyProfiles/theresaKukla')
+})
+
+app.get('/facultyProfiles/davePereira', (req, res) => {
+    res.render('facultyProfiles/davePereira')
+})
+
+app.get('/facultyProfiles/rebecaShreve', (req, res) => {
+    res.render('facultyProfiles/rebecaShreve')
+})
+
+app.get('/facultyProfiles/pattiChan', (req, res) => {
+    res.render('facultyProfiles/pattiChan')
+})
+
+app.get('/facultyProfiles/lisaMazzoncini', (req, res) => {
+    res.render('facultyProfiles/lisaMazzoncini')
+})
+
+app.get('/facultyProfiles/lauriePease', (req, res) => {
+    res.render('facultyProfiles/lauriePease')
+})
+
+app.get('/facultyProfiles/cathyColomb', (req, res) => {
+    res.render('facultyProfiles/cathyColomb')
+})
 
 app.listen(3000, () => {
     console.log('listening on port 300')
