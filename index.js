@@ -135,6 +135,24 @@ app.get('/facultyProfiles/joeyPrior', (req, res) => {
     res.render('facultyProfiles/joeyPrior')
 })
 
+app.get('/facultyProfiles/daranFraser', (req, res) => {
+    res.render('facultyProfiles/daranFraser')
+})
+
+app.get('/facultyProfiles/alexanderBuckley', (req, res) => {
+    res.render('facultyProfiles/alexanderBuckley')
+})
+
+app.get('/facultyProfiles/coryBrady', (req, res) => {
+    res.render('facultyProfiles/coryBrady')
+})
+
+app.get('/facultyProfiles/amieRobison', (req, res) => {
+    res.render('facultyProfiles/amieRobison')
+})
+
+
+
 app.listen(3000, () => {
     console.log('listening on port 300')
 })
