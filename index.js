@@ -87,6 +87,17 @@ app.get('/facultyProfiles/rachelleLongtin', (req, res) => {
     res.render('facultyProfiles/rachelleLongtin')
 })
 
+app.get('/facultyProfiles/pamelaLucido', (req, res) => {
+    res.render('facultyProfiles/pamelaLucido')
+})
+
+app.get('/facultyProfiles/noriSwanson', (req, res) => {
+    res.render('facultyProfiles/noriSwanson')
+})
+
+app.get('/facultyProfiles/haleyMax', (req, res) => {
+    res.render('facultyProfiles/haleyMax')
+})
 
 
 app.listen(3000, () => {
