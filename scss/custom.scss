@@ -58,6 +58,13 @@
   }
 }
 
+#faculty {
+  .btn {
+    background-color: #f4ca16;
+    border: 4px solid black;
+  }
+}
+
 #vision {
   .center-cropped {
     object-fit: cover; /* Do not scale the image */
@@ -67,6 +74,7 @@
   }
 }
 
+//GENERAL PURPOSE
 .center-cropped {
   object-fit: cover; /* Do not scale the image */
   object-position: center; /* Center the image within the element */
