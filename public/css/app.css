@@ -11173,6 +11173,10 @@ textarea.form-control-lg {
   background-color: #f4ca16;
   border: 4px solid black;
 }
+#faculty .about-link {
+  color: red;
+  text-decoration: none;
+}
 
 #vision .center-cropped {
   object-fit: cover;
