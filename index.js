@@ -99,6 +99,17 @@ app.get('/facultyProfiles/haleyMax', (req, res) => {
     res.render('facultyProfiles/haleyMax')
 })
 
+app.get('/facultyProfiles/stephanieKent', (req, res) => {
+    res.render('facultyProfiles/stephanieKent')
+})
+
+app.get('/facultyProfiles/jasonStone', (req, res) => {
+    res.render('facultyProfiles/jasonStone')
+})
+
+
+
+
 
 app.listen(3000, () => {
     console.log('listening on port 300')
