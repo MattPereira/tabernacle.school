@@ -92,6 +92,14 @@ app.get('/familyDashboard/info/uniformGuidelines', (req, res) => {
     res.render('familyDashboard/info/uniformGuidelines')
 })
 
+app.get('/familyDashboard/forms/driverForm', (req, res) => {
+    res.render('familyDashboard/forms/driverForm')
+})
+
+app.get('/familyDashboard/forms/techAgreement', (req, res) => {
+    res.render('familyDashboard/forms/techAgreement')
+})
+
 
 
 // TEACHER PROFILE PAGES
