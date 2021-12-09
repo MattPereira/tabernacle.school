@@ -58,6 +58,16 @@ app.get('/family', (req, res) => {
     res.render('family')
 })
 
+// FAMILY DASHBOARD PAGES
+
+app.get('/familyPages/newsletter', (req, res) => {
+    res.render('familyPages/newsletter')
+})
+
+
+
+
+
 
 // TEACHER PROFILE PAGES
 
