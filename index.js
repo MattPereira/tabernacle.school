@@ -64,8 +64,33 @@ app.get('/familyPages/newsletter', (req, res) => {
     res.render('familyPages/newsletter')
 })
 
+app.get('/familyPages/studentPhotos', (req, res) => {
+    res.render('familyPages/studentPhotos')
+})
 
+app.get('/familyPages/tigerAthletics', (req, res) => {
+    res.render('familyPages/tigerAthletics')
+})
 
+app.get('/familyPages/summerDaycare', (req, res) => {
+    res.render('familyPages/summerDaycare')
+})
+
+app.get('/familyPages/spellingBee', (req, res) => {
+    res.render('familyPages/spellingBee')
+})
+
+app.get('/familyPages/stemFair', (req, res) => {
+    res.render('familyPages/stemFair')
+})
+
+app.get('/familyPages/juniorHighAwards', (req, res) => {
+    res.render('familyPages/juniorHighAwards')
+})
+
+app.get('/familyPages/parentOrientation', (req, res) => {
+    res.render('familyPages/parentOrientation')
+})
 
 
 
