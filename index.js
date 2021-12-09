@@ -60,17 +60,36 @@ app.get('/family', (req, res) => {
 
 // FAMILY DASHBOARD PAGES
 
-app.get('/familyPages/newsletter', (req, res) => {
-    res.render('familyPages/newsletter')
+app.get('/familyDashboard/newsletter', (req, res) => {
+    res.render('familyDashboard/newsletter')
 })
 
-
-app.get('/familyPages/awards', (req, res) => {
-    res.render('familyPages/awards')
+app.get('/familyDashboard/awards', (req, res) => {
+    res.render('familyDashboard/awards')
 })
 
-app.get('/familyPages/orientationVideo', (req, res) => {
-    res.render('familyPages/orientationVideo')
+app.get('/familyDashboard/orientationVideo', (req, res) => {
+    res.render('familyDashboard/orientationVideo')
+})
+
+app.get('/familyDashboard/info/orientationInfo', (req, res) => {
+    res.render('familyDashboard/info/orientationInfo')
+})
+
+app.get('/familyDashboard/info/factsHelp', (req, res) => {
+    res.render('familyDashboard/info/factsHelp')
+})
+
+app.get('/familyDashboard/info/supplyList', (req, res) => {
+    res.render('familyDashboard/info/supplyList')
+})
+
+app.get('/familyDashboard/info/jrHighDiscipline', (req, res) => {
+    res.render('familyDashboard/info/jrHighDiscipline')
+})
+
+app.get('/familyDashboard/info/uniformGuidelines', (req, res) => {
+    res.render('familyDashboard/info/uniformGuidelines')
 })
 
 
