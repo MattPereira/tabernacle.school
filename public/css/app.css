@@ -11192,4 +11192,8 @@ textarea.form-control-lg {
   width: 300px;
 }
 
+#dressCode table th {
+  background-color: #e0e0e0;
+}
+
 /*# sourceMappingURL=app.css.map */
