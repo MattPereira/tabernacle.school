@@ -7,7 +7,87 @@
 </section>
 
 <section class="py-5 bg-light">
-    <h2 class="display-4 text-center">coming soon...</h2>
+    <div class="container bg-white p-5">
+        <h2 class="display-6 text-center">INSURANCE VERIFICATION FORM & VOLUNTEER TRANSPORTATION AGREEMENTS</h2>
+        <p>
+            I volunteer to drive my personal vehicle to provide transportation for school field trips and sporting events (which includes softball, basketball, volleyball, and soccer). Tabernacle School requires that each volunteer driver furnish the following information (yearly), for approval prior to driving on its behalf.
+        </p>
+        <ol>
+            <li>Copy of Valid Drivers License</li>
+            <li>A current copy of the insurance declaration with limit amounts shown.</li>
+            <li>Filling out and submitting the liability form below</li>
+        </ol>
+        <h4>Minimu Acceptable Limits:</h4>
+        <ul>
+            <li>Bodily Injury: $100,000 per person / $300000 per accident</li>
+            <li>Property Damage: $2500 per accident (or) Combined Single Limit BI/PD : $300,000</li>
+            <li>Meidcal Payments: $5000</li>
+            <li>Uninsured Motorist: $30,000 per person / $60,000 per accident</li>
+        </ul>
+        <h4>Additionally, I agree that:</h4>
+        <p>I will be responsible for any comprehensive or collision losses or damage suffered by my automobile during the above referenced time period.</p>
+        <p>I shall obey the traffic laws, including the requirement that all passengers use the lap belt and shoulder harness while the vehicle is in transit. If children under the age of six years or weighing less than 60 pounds are being transported, then an approved car seat shall be used</p>
+        <p>I am not aware of any defect or mechanical problem with the vehicle that might pose a safety problem.</p>
+        <p>Before signing, please note that in accordance with California State Law, the insurance provided by the registered owner of the vehicle is primary. Any insurance carried by the organization that may be applicable is secondary.</p>
+
+        <div class="my-3 form-check">
+            <input type="checkbox" class="form-check-input" id="driverForm">
+            <label class="form-check-label" for="driverForm">I have read the above and I understand and agree with the above listed requirements.</label>
+        </div>
+
+        <div class="row align-items-end mb-3">
+            <div class="col-md-4">
+                <label for="driverName"><strong>Driver Name:</strong></label>
+                <input type="text" class="form-control" id="driverFirst" placeholder="First">
+            </div>
+            <div class="col-md-4">
+                <input type="text" class="form-control" id="driverLast" placeholder="Last">
+            </div>
+            <div class="col-md-4">
+                <label for="email"><strong>Email:</strong></label>
+                <input type="email" class="form-control" placeholder="yourEmail@gmail.com">
+            </div>
+        </div>
+        <div class="row align-items-end">
+            <label for="vehicleDescription"><strong>Vehicle Description:</strong></label>
+            <div class="col-md-4">
+                <input type="number" min="1900" max="2099" step="1" class="form-control" placeholder="year"/>
+            </div>
+            <div class="col-md-4">
+                <input type="text" id="make" placeholder="make" class="form-control">
+            </div>
+            <div class="col-md-4">
+                <input type="text" id="model" placeholder="model" class="form-control">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <label for="date"><strong>Date:</strong></label>
+                <input type="date" class="form-control mb-3">
+            </div>
+        </div>
+        <label for="signature"><strong>Signature</strong></label>
+        <div class="row border border-dark border-3 mb-3">
+            <div class="d-none d-md-block col-md-12">
+                 <canvas id="sig-canvas" width="1000"></canvas>
+             </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-5 d-grid">
+                <button class="btn btn-secondary btn-lg">Submit</button>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
 </section>
+
+
+
+<script src="/scripts/studentSig.js"></script>
 
 <%- include('../../partials/footer.ejs') %> 
