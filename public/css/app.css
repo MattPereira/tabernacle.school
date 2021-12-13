@@ -11239,6 +11239,12 @@ textarea.form-control-lg {
   }
 }
 
+#techAgreement #sig-canvas {
+  border: 2px dotted #CCCCCC;
+  border-radius: 15px;
+  cursor: crosshair;
+}
+
 .center-cropped {
   object-fit: cover;
   /* Do not scale the image */
