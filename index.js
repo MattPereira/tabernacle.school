@@ -58,6 +58,16 @@ app.get('/family', (req, res) => {
     res.render('family')
 })
 
+app.get('/contact', (req, res) => {
+    res.render('contact')
+})
+
+app.get('/employment', (req, res) => {
+    res.render('employment')
+})
+
+
+
 // FAMILY DASHBOARD PAGES
 
 app.get('/familyDashboard/newsletter', (req, res) => {
@@ -99,6 +109,12 @@ app.get('/familyDashboard/forms/driverForm', (req, res) => {
 app.get('/familyDashboard/forms/techAgreement', (req, res) => {
     res.render('familyDashboard/forms/techAgreement')
 })
+
+app.get('/familyDashboard/forms/bicycleAgree', (req, res) => {
+    res.render('familyDashboard/forms/bicycleAgree')
+})
+
+
 
 
 

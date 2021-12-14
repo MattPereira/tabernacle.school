@@ -1,0 +1,98 @@
+<%- include('../../partials/head.ejs') %> 
+
+<%- include('../../partials/navbars.ejs') %> 
+
+<section id="walkShowcase" class="py-5">
+    <h1 class="display-2 text-center">BICYCLE AND WALKING AGREEMENT</h1>
+</section>
+
+
+<section class="py-5 bg-light">
+    <div class="container">
+        <h5 class="text-center">Please read through the rules and sign that both the guardian and student understand and agree to them.</h5>
+
+
+            <div class="row justify-content-center">
+
+                <div class="col-md-8 bg-white p-5 m-5 border border-dark border-4">
+                    <h5 class="text-center">Parents and student(s) must agree to the following rules: </h6>
+                    <ol>
+                        <li>Park the bicycle in the racks near the school bus parking.</li>
+                        <li>Lock the bicycle during the school day.</li>
+                        <li>Walk the bicycle while on school property.</li>
+                        <li>Leave campus with a helmet fastened (as per California bicycle helmet law).</li>
+                    </ol>
+                </div>
+            </div>
+
+
+
+        <form action="" class="bg-white p-5">
+            <h4 class="text-center display-6">Tabernacle Bicycle and Walking Agreement</h4>
+            <div class="my-3 form-check">
+                <input type="checkbox" class="form-check-input" id="bicycleWalk">
+                <label class="form-check-label" for="bicycleWalk">I have read and agree to the terms listed in the Bicycle Walking Agreement</label>
+            </div>
+            <div class="row mb-3">
+                <label for="studentName" class="form-label"><strong>Student Name</strong></label>
+                <div class="col-md-6">
+                    <input type="text" placeholder="First" class="form-control">
+                </div>
+                <div class="col-md-6">
+                    <input type="text" placeholder="Last" class="form-control">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label for="class" class="form-label"><strong>Class</strong></label>
+                    <input type="text" placeholder="class" class="form-control">
+                </div>
+                <div class="col-md-6">
+                    <label for="date" class="form-label"><strong>Date</strong></label>
+                    <input type="date"class="form-control">
+                </div>
+            </div>
+
+            <label for="studentSig"><strong>Student Signature</strong></label>
+            <div class="row border border-2 rounded mb-3">
+                <div class="d-none d-md-block col-md-12">
+                     <canvas id="sig-canvas" width="1000"></canvas>
+                 </div>
+            </div>
+
+            <div class="row mb-3 align-items-end">
+                <div class="col-md-4">
+                    <label for="parentName" class="form-label"><strong>Parent Name</strong></label>
+                    <input type="text" placeholder="First" class="form-control">
+                </div>
+                <div class="col-md-4">
+                    <input type="text" placeholder="Last" class="form-control">
+                </div>
+                <div class="col-md-4">
+                    <label for="email" class="form-label"><strong>Email</strong></label>
+                    <input type="email" class="form-control" placeholder="yourEmail@gmail.com">
+                </div>
+            </div>
+
+            <label for="parentSig"><strong>Parent/Guardian Signature</strong></label>
+            <div class="row mb-3">
+                <div class="d-none d-md-block col-md-12 border border-2 rounded">
+                     <canvas id="sig-canvas2" width="1000"></canvas>
+                 </div>
+            </div>
+
+            <div class="d-grid">
+                <button type="submit" class="btn btn-secondary btn-lg">Submit</button>
+            </div>
+        </form>
+    </div>
+</section>
+
+
+<script src="/scripts/studentSig.js"></script>
+<script src="/scripts/parentSig.js"></script>
+
+
+
+
+<%- include('../../partials/footer.ejs') %> 
