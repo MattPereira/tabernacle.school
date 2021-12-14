@@ -11133,10 +11133,20 @@ textarea.form-control-lg {
 }
 
 #mainNavbar {
-  font-weight: 300;
+  font-weight: 400;
+}
+#mainNavbar .familybtn {
+  text-decoration: none;
+  color: white;
+}
+#mainNavbar .familybtn:hover {
+  background-color: black;
 }
 #mainNavbar .navbar-brand h3, #mainNavbar .navbar-brand .h3 {
-  font-weight: 300;
+  font-weight: 500;
+}
+#mainNavbar .navbar-brand h3:hover, #mainNavbar .navbar-brand .h3:hover {
+  background-color: black;
 }
 #mainNavbar .nav-item {
   font-size: 1.4rem;
@@ -11149,8 +11159,8 @@ textarea.form-control-lg {
   display: block;
 }
 #mainNavbar .navbar-nav li .dropdown-menu {
-  background-color: #74b9ff;
-  opacity: 0.8;
+  background-color: #727374;
+  opacity: 0.9;
 }
 #mainNavbar .navbar-nav li .dropdown-item:hover {
   background-color: black;
