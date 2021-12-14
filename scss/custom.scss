@@ -1,3 +1,6 @@
+
+
+
 //SITE WIDE STYLES
 .section-hr {
   width: 150px;
@@ -5,15 +8,21 @@
   border-top: 3px solid;
 }
 
+
+#pageNav {
+  .btn{
+    background-color: white;
+  }
+  .btn:hover{
+    background-color: black;
+    color: white;
+  }
+}
+
 #mainNavbar {
-  font-weight: 400;
-  //   position: absolute;
-  //   top: 0;
-  //   right: 0;
-  //   left: 0;
-  //   z-index: 3;
+  font-weight: 300;
   .navbar-brand h3 {
-    font-weight: 100;
+    font-weight: 300;
   }
   .nav-item {
     font-size: 1.4rem;
@@ -24,7 +33,20 @@
   }
   .dropdown:hover .dropdown-menu {
     display: block;
-    margin-top: 0; // remove the gap so it doesn't close
+    // margin-top: 0; // remove the gap so it doesn't close
+  }
+
+  .navbar-nav {
+    li {
+      .dropdown-menu {
+        background-color: #74b9ff;
+        opacity: 0.8;
+      }
+      .dropdown-item:hover {
+        background-color: black;
+        color: white;
+      }
+    };
   }
 }
 

@@ -11124,11 +11124,19 @@ textarea.form-control-lg {
   border-top: 3px solid;
 }
 
+#pageNav .btn {
+  background-color: white;
+}
+#pageNav .btn:hover {
+  background-color: black;
+  color: white;
+}
+
 #mainNavbar {
-  font-weight: 400;
+  font-weight: 300;
 }
 #mainNavbar .navbar-brand h3, #mainNavbar .navbar-brand .h3 {
-  font-weight: 100;
+  font-weight: 300;
 }
 #mainNavbar .nav-item {
   font-size: 1.4rem;
@@ -11139,7 +11147,14 @@ textarea.form-control-lg {
 }
 #mainNavbar .dropdown:hover .dropdown-menu {
   display: block;
-  margin-top: 0;
+}
+#mainNavbar .navbar-nav li .dropdown-menu {
+  background-color: #74b9ff;
+  opacity: 0.8;
+}
+#mainNavbar .navbar-nav li .dropdown-item:hover {
+  background-color: black;
+  color: white;
 }
 
 #core {
