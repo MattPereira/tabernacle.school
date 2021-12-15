@@ -4,7 +4,7 @@
 
 
 <section id="campusShowcase" class="py-5">
-    <h1 class="display-1 text-center">CAMPUS LIFE</h1>
+    <h1 class="display-1 text-center">CAMPUS</h1>
 </section>
 
 <ul id="pageNav" class="nav nav-pills bg-info d-flex justify-content-around py-2 px-5 d-none d-md-flex">
@@ -25,15 +25,85 @@
     </li>
 </ul>
 
-<section id="calendar" class="py-5 bg-dark text-white">
-  <h2 class="display-4 text-center">School Calendar</h2>
-  <hr class="section-hr mb-4">
-    <div class="container d-flex justify-content-center my-5">
-        <iframe src="https://calendar.google.com/calendar/embed?src=tabernacle.school1%40gmail.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-    </div>
+<section id="calendar" class="py-5 bg-secondary text-white">
+  <div class="">
+    <h2 class="display-4 text-center">Calendar</h2>
+    <hr class="section-hr mb-4">
+    <h5 class="text-center"><%= new Date(); %></h5>
+      <div class="container d-flex justify-content-center mb-5">
+        <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FLos_Angeles&showTitle=0&showNav=0&showPrint=0&showTabs=0&showCalendars=0&showTz=0&showDate=0&src=bWF0dHBAdGJzLm9yZw&src=dGFiZXJuYWNsZS5zY2hvb2wxQGdtYWlsLmNvbQ&color=%237986CB&color=%23F09300" style="border:solid 10px; border-bottom-color: red; border-top-color: blue; border-right-color: yellow; border-left-color: green" width="1000" height="600" frameborder="0" scrolling="no"></iframe>
+      </div>
+  </div>
 </section>
 
-<section id="daycare" class="bg-info text-white py-5">
+<section id="athletics" class="py-5">
+  <div class="container">
+      <h2 class="text-center display-4 ">Athletics</h2>
+      <hr class="section-hr mb-3">
+      <div class="row d-none d-md-flex my-5">
+          <div class="col-md-2 offset-1">
+              <img src="images/tigerFootball.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-2">
+              <img src="images/tigerBaseball.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-2">
+              <img src="images/tigerBasketball.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-2">
+              <img src="images/tigerSoccer.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-2">
+              <img src="images/tigerVolleyball.png" class="img-fluid" alt="">
+          </div>
+      </div>
+      <p class="lead">The focus behind the athletic program at Tabernacle is to instill Christ-centered character traits within the lives of our student athletes. While the program includes training to enhance the ability of the student and education to develop a better understanding of sports, at the end of each day, we strive to glorify Him in all that we do.</p>
+      <p class="text-center">[full size video here]</p>
+      <div class="row text-center">
+          <div class="col-md-6 my-5">
+              <h4 class="text-center display-6 mb-3">Physical Education</h4>
+              <p>Tabernacle provides Physical Education daily to Kindergarten through Eighth grade students. Our program gets students moving while introducing them to different sports and other physical activities. Special events include the Punt, Pass, and Kick competition and Track and Field Day.</p>
+              <img src="images/physicalEd.jpg" class="img-fluid mx-auto d-block mt-5" alt="">
+          </div>
+          <div class="col-md-6 my-5">
+              <h4 class="text-center display-6 mb-3">Sports Programs</h4>
+              <p>Tabernacle offers sports programs for boys and girls in junior high. Tryout information, practice days and the league schedule can be found on our sports calendar.The Tigers are part of the Bay Area Christian School Athletic League. For more information on BACSAL visit <a href="bascal.org">bacsal.org</a>.</p>
+
+                <table class="table table-bordered border border-dark border-2 mt-5">
+                  <thead class="bg-primary text-white">
+                    <th>Quarter</th>
+                    <th>Boys</th>
+                    <th>Girls</th>
+                  </thead>
+                  <tr>
+                    <th scope="row" class="bg-light">First</th>
+                    <td>Flag Football</td>
+                    <td>Softball</td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="bg-light">Second</th>
+                    <td>Basketball</td>
+                    <td>Basketball</td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="bg-light">Third</th>
+                    <td>Volleyball</td>
+                    <td>Soccer</td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="bg-light">Fourth</th>
+                    <td>Soccer</td>
+                    <td>Volleyball</td>
+                  </tr>
+                </table>
+                <p>* Third and Fourth quarter sport offerings swap every other year</p>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+<section id="daycare" class="bg-light py-5">
     <div class="container">
         <h2 class="display-4 text-center">Daycare</h2>
         <hr class="section-hr mb-4">
@@ -51,7 +121,7 @@
                 <div class="accordion accordion-flush text-dark" id="accordionFlushExample">
                     <div class="accordion-item">
                       <h2 class="accordion-header" id="flush-headingOne">
-                        <button class="accordion-button collapsed bg-light border border-3 border-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        <button class="accordion-button collapsed bg-info text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                           Drop-In Daycare (2020)
                         </button>
                       </h2>
@@ -63,7 +133,7 @@
                     </div>
                     <div class="accordion-item">
                       <h2 class="accordion-header" id="flush-headingTwo">
-                        <button class="accordion-button collapsed bg-light border border-3 border-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        <button class="accordion-button collapsed bg-info text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
                           School Days (2020 - 2021)
                         </button>
                       </h2>
@@ -75,7 +145,7 @@
                     </div>
                     <div class="accordion-item">
                       <h2 class="accordion-header" id="flush-headingThree">
-                        <button class="accordion-button collapsed bg-light border border-3 border-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        <button class="accordion-button collapsed bg-info text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
                           Daycare Rates (2021-2022)
                         </button>
                       </h2>
@@ -94,143 +164,14 @@
     </div>
 </section>
 
-<section id="athletics" class="py-5">
-    <div class="container">
-        <h2 class="text-center display-4 ">Athletics</h2>
-        <hr class="section-hr mb-3">
-        <div class="row d-none d-md-flex my-5">
-            <div class="col-md-2 offset-1">
-                <img src="images/tigerFootball.jpg" class="img-fluid" alt="">
-            </div>
-            <div class="col-md-2">
-                <img src="images/tigerBaseball.png" class="img-fluid" alt="">
-            </div>
-            <div class="col-md-2">
-                <img src="images/tigerBasketball.png" class="img-fluid" alt="">
-            </div>
-            <div class="col-md-2">
-                <img src="images/tigerSoccer.png" class="img-fluid" alt="">
-            </div>
-            <div class="col-md-2">
-                <img src="images/tigerVolleyball.png" class="img-fluid" alt="">
-            </div>
-        </div>
-        <p class="lead">The focus behind the athletic program at Tabernacle is to instill Christ-centered character traits within the lives of our student athletes. While the program includes training to enhance the ability of the student and education to develop a better understanding of sports, at the end of each day, we strive to glorify Him in all that we do.</p>
-        <p class="text-center">[full size video here]</p>
-        <div class="row text-center">
-            <div class="col-md-6 my-5">
-                <h4 class="text-center display-6">Physical Education</h4>
-                <p>Tabernacle provides Physical Education daily to Kindergarten through Eighth grade students. Our program gets students moving while introducing them to different sports and other physical activities. Special events include the Punt, Pass, and Kick competition and Track and Field Day.</p>
-                <img src="images/physicalEd.jpg" class="img-fluid mx-auto d-block" alt="">
-            </div>
-            <div class="col-md-6 my-5">
-                <h4 class="text-center display-6">Sports Programs</h4>
-                <p>Tabernacle offers sports programs for boys and girls in junior high. Tryout information, practice days and the league schedule can be found on our sports calendar.The Tigers are part of the Bay Area Christian School Athletic League. For more information on BACSAL visit <a href="bascal.org">bacsal.org</a>.</p>
-                <div class="accordion mt-5" id="accordionExample">
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button collapsed bg-success text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                          First Quarter
-                        </button>
-                      </h2>
-                      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                          Boys Flag Football
-                          <br>
-                          Girls Softball
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed bg-danger text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                          Second Quarter
-                        </button>
-                      </h2>
-                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            Boys Basketball
-                            <br>
-                            Girls Basketball
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed bg-primary text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                          Third Quarter
-                        </button>
-                      </h2>
-                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            Boys Volleyball
-                            <br>
-                            Girls Soccer
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingFour">
-                          <button class="accordion-button collapsed bg-secondary text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                            Fourth Quarter
-                          </button>
-                        </h2>
-                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                          <div class="accordion-body">
-                            Boys Soccer
-                            <br>
-                            Girls Volleyball
-                          </div>
-                        </div>
-                      </div>
-                  </div>
-                  <p>* Third and Fourth quarter sport offerings swap every other year</p>
-            </div>
-        </div>
-        <!-- <div class="row justify-content-center mt-4">
-          <div class="col-md-6 d-grid">
-            <a href="https://tabernacle.school/wp-content/uploads/2020/07/TSSportsMedicalForm.pdf" class="btn btn-outline-danger">Sports Physical Form</a>
-          </div>
-          <div class="col-md-6 d-grid">
-            <a href="https://tabernacle.school/vehicle-driver-form/" class="btn btn-outline-danger">Driver Form (Parent Drivers)</a>
-          </div>
-        </div> -->
-    </div>
-</section>
 
-<section id="outreach" class="bg-success text-white py-5">
-    <h2 class="text-center display-4">Outreach</h2>
-    <hr class="section-hr mb-5">
-    <div class="container">
-        <div class="row text-center">
-            <div class="col-md-4">
-                <h3 class="">Friends Feeding Friends</h3>
-                <img src="images/friendsFeeding.jpg" class="img-fluid center-cropped rounded-circle my-4 border border-5 border-white" alt="">
-                <p class="lead">An outreach ministry that serves the homeless and low income people in our community in loving memory of Sarah Deniston.</p>
-                <p><a href="http://gsconcord.com/outreach-ministries/friends-feeding-friends/" class="btn btn-outline-secondary border border-3 btn-lg text-white"><b>Friends Feeding Friends</b></a></p>
-            </div>
-            <div class="col-md-4">
-                <h3>Thanksgiving Food Drive</h3>
-                <img src="images/thanksgiving.jpg" class="img-fluid center-cropped rounded-circle my-4 border border-5 border-white" alt="">
-                <p class="lead">Tabernacle partners with the Food Bank of Contra Costa and Solano during November to collect healthy and nonperishable foods.</p>
-                <p><a href="https://www.foodbankccs.org/give-help/host-a-drive.html" class="btn btn-outline-secondary btn-lg border border-3 text-white"><b>Food Bank of CCS</b></a></p>
-            </div>
-            <div class="col-md-4">
-                <h3>Operation Christmas Child</h3>
-                <img src="images/operationChristmas.jpg" class="img-fluid center-cropped rounded-circle my-4 border border-5 border-white" alt="">
-                <p class="lead">Partnering with Samaritan’s Purse, Tabernacle families pack shoeboxes to show God’s love in a tangible way to children in need around the world.</p>
-                <a href="https://www.samaritanspurse.org/what-we-do/operation-christmas-child/" class="btn btn-outline-secondary btn-lg border border-3 text-white"><b>Samaritans Purse</b></a>
-            </div>
-        </div>
-    </div>
-</section>
 
 <section id="safety" class="py-5">
     <div class="container">
-        <h2 class="display-4 text-center">Campus Safety</h2>
+        <h2 class="display-4 text-center">Safety</h2>
         <hr class="section-hr mb-4">
-        <div class="row align-items-center">
-            <div class="col-md-6 ">
+        <div class="row align-items-center justify-content-around">
+            <div class="col-md-5">
                 <div class="col d-grid p-2">
                     <a href="pdfs/ReopeningPlan2021.pdf" class="btn btn-warning btn-lg">Reopening Plan</a>
                 </div>
@@ -247,12 +188,43 @@
                     <a class="btn btn-warning btn-lg" href="pdfs/parentWaiverForm.pdf">Parent Waiver Form</a>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-5">
                 <img src="images/covid.jpg" class="img-fluid" alt="">
             </div>
         </div>
     </div>
+</section>
 
+
+
+<section id="outreach" class="bg-light py-5">
+  <h2 class="text-center display-4">Outreach</h2>
+  <hr class="section-hr mb-5">
+  <div class="container">
+      <div class="row text-center">
+          <div class="col-md-4 mb-3">
+              <h3 class="">Friends Feeding Friends</h3>
+              <a href="http://gsconcord.com/outreach-ministries/friends-feeding-friends/">
+                <img src="images/friendsFeeding.jpg" class="img-fluid center-cropped rounded-circle my-4 border border-5 border-dark" alt="">
+              </a>
+              <p class="lead">An outreach ministry that serves the homeless and low income people in our community in loving memory of Sarah Deniston.</p>
+          </div>
+          <div class="col-md-4 mb-3">
+              <h3>Thanksgiving Food Drive</h3>
+              <a href="https://www.foodbankccs.org/give-help/host-a-drive.html">
+                <img src="images/thanksgiving.jpg" class="img-fluid center-cropped rounded-circle my-4 border border-5 border-dark" alt="">
+              </a>
+              <p class="lead">Tabernacle partners with the Food Bank of Contra Costa and Solano during November to collect healthy and nonperishable foods.</p>
+          </div>
+          <div class="col-md-4 mb-3">
+              <h3>Operation Christmas Child</h3>
+              <a href="https://www.samaritanspurse.org/what-we-do/operation-christmas-child/">
+                <img src="images/operationChristmas.jpg" class="img-fluid center-cropped rounded-circle my-4 border border-5 border-dark" alt="">
+              </a>
+              <p class="lead">Partnering with Samaritan’s Purse, Tabernacle families pack shoeboxes to show God’s love in a tangible way to children in need around the world.</p>
+          </div>
+      </div>
+  </div>
 </section>
 
 <script src="/public/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
