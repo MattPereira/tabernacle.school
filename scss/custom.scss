@@ -74,6 +74,24 @@
   filter: invert(100%);
 }
 
+#educationLevels {
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  h4 {
+    background-color: white;
+  }
+  a:hover {
+    h4 {
+      background-color: black;
+      color: white;
+    }
+  }
+}
+
+
+
 //ABOUT PAGE
 #aboutShowcase {
   background: url("/images/tabernacleWide.jpg") bottom center / cover no-repeat;
@@ -148,6 +166,22 @@
   }
 }
 
+//SCHOOL PORTALS
+#portals {
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  h3 {
+    background-color: white;
+  }
+  a:hover {
+    h3 {
+      background-color: black;
+      color: white;
+    }
+  }
+}
 
 
 //Tech Agreement Form

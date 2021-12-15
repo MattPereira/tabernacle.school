@@ -11176,6 +11176,18 @@ textarea.form-control-lg {
   filter: invert(100%);
 }
 
+#educationLevels a {
+  text-decoration: none;
+  color: black;
+}
+#educationLevels h4, #educationLevels .h4 {
+  background-color: white;
+}
+#educationLevels a:hover h4, #educationLevels a:hover .h4 {
+  background-color: black;
+  color: white;
+}
+
 #aboutShowcase {
   background: url("/images/tabernacleWide.jpg") bottom center/cover no-repeat;
   min-height: 400px;
@@ -11228,6 +11240,18 @@ textarea.form-control-lg {
   background-color: white;
 }
 #tigerLife a:hover h3, #tigerLife a:hover .h3 {
+  background-color: black;
+  color: white;
+}
+
+#portals a {
+  text-decoration: none;
+  color: black;
+}
+#portals h3, #portals .h3 {
+  background-color: white;
+}
+#portals a:hover h3, #portals a:hover .h3 {
   background-color: black;
   color: white;
 }
