@@ -11208,6 +11208,30 @@ textarea.form-control-lg {
   width: 550px;
 }
 
+#outreach a {
+  text-decoration: none;
+  color: black;
+}
+#outreach a h3, #outreach a .h3 {
+  background-color: white;
+}
+#outreach a:hover h3, #outreach a:hover .h3 {
+  background-color: black;
+  color: white;
+}
+
+#tigerLife a {
+  text-decoration: none;
+  color: black;
+}
+#tigerLife h3, #tigerLife .h3 {
+  background-color: white;
+}
+#tigerLife a:hover h3, #tigerLife a:hover .h3 {
+  background-color: black;
+  color: white;
+}
+
 #techAgreement #sig-canvas {
   border: 2px dotted #CCCCCC;
   border-radius: 15px;
