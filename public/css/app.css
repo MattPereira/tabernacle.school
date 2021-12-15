@@ -11207,8 +11207,25 @@ textarea.form-control-lg {
 }
 
 #faculty .about-link {
-  color: red;
+  border: 1px solid black;
+  border-radius: 500px;
+  padding: 2px 2px 2px 2px;
+  background-color: black;
   text-decoration: none;
+  color: white;
+}
+#faculty a {
+  text-decoration: none;
+}
+#faculty a h5, #faculty a .h5 {
+  color: black;
+}
+#faculty a:hover h5, #faculty a:hover .h5 {
+  background-color: black;
+  color: white;
+}
+#faculty a:hover img {
+  border: 5px solid black;
 }
 
 #vision .center-cropped {
