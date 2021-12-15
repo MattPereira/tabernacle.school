@@ -11178,14 +11178,10 @@ textarea.form-control-lg {
 
 #educationLevels a {
   text-decoration: none;
-  color: black;
-}
-#educationLevels h4, #educationLevels .h4 {
-  background-color: white;
+  color: white;
 }
 #educationLevels a:hover h4, #educationLevels a:hover .h4 {
   background-color: black;
-  color: white;
 }
 
 #aboutShowcase {

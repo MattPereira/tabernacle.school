@@ -78,15 +78,14 @@
 #educationLevels {
   a {
     text-decoration: none;
-    color: black;
+    color: white;
   }
-  h4 {
-    background-color: white;
-  }
+  // h4 {
+  //   background-color: white;
+  // }
   a:hover {
     h4 {
       background-color: black;
-      color: white;
     }
   }
 }
@@ -125,7 +124,6 @@
   a {
     text-decoration: none;
     h5 {
-
       color: black;
     }
   }
