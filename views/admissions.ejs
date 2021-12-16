@@ -3,7 +3,7 @@
 <%- include('partials/navbars.ejs') %> 
 
     <section id="admissionsShowcase" class="py-5 bg-dark text-white">
-        <h1 class="display-1 text-center">ADMISSIONS</h1>
+        <h1 class="display-1 text-center showHead">ADMISSIONS</h1>
         <h5 class="display-6 text-center">Enrollment for 2022-23 opens [DATE]</h3>
     </section>
 
@@ -274,15 +274,15 @@
             <h2 class="text-center display-3">Schedule Tour</h2>
             <div class="row">
                 <div class="col-md-8 offset-md-2">
-                    <form>
+                    <form action="mailto:mattp@tbs.org" enctype="text/plain">
                         <div class="mb-3">
                           <label for="name" class="form-label">Name</label>
                           <div class="row">
                               <div class="col-md-6">
-                                <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="first">
+                                <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="first" required>
                               </div>
                               <div class="col-md-6">
-                                <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="last">
+                                <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="last" required>
                               </div>
                           </div>
                         </div>

@@ -11118,6 +11118,11 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.showHead {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+}
+
 .section-hr {
   width: 150px;
   margin: auto;
