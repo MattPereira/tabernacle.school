@@ -11295,4 +11295,26 @@ textarea.form-control-lg {
   background-color: black;
 }
 
+#forms a {
+  text-decoration: none;
+}
+#forms a i {
+  color: black;
+}
+#forms a:hover button {
+  background-color: black;
+  color: white;
+}
+
+#schoolInfo a {
+  text-decoration: none;
+}
+#schoolInfo a i {
+  color: black;
+}
+#schoolInfo a:hover button {
+  background-color: black;
+  color: white;
+}
+
 /*# sourceMappingURL=app.css.map */
