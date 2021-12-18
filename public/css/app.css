@@ -11173,7 +11173,7 @@ textarea.form-control-lg {
   display: block;
 }
 #mainNavbar .navbar-nav li .dropdown-menu {
-  background-color: #727374;
+  background-color: white;
   opacity: 0.9;
 }
 #mainNavbar .navbar-nav li .dropdown-item:hover {
