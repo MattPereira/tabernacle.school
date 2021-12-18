@@ -11208,7 +11208,7 @@ textarea.form-control-lg {
 
 #aboutShowcase {
   background: url("/images/tabernacleWide.jpg") bottom center/cover no-repeat;
-  min-height: 400px;
+  min-height: 350px;
   position: relative;
 }
 #aboutShowcase #aboutHeader {
@@ -11255,6 +11255,60 @@ textarea.form-control-lg {
   width: 550px;
 }
 
+#admissionsShowcase {
+  background: url("/images/admissions.jpeg") bottom center/cover no-repeat;
+  min-height: 350px;
+  position: relative;
+}
+#admissionsShowcase #admissionHeader {
+  z-index: 2;
+}
+#admissionsShowcase #admissionOverlay {
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+#academicShowcase {
+  background: url("/images/academics.jpeg") bottom center/cover no-repeat;
+  min-height: 350px;
+  position: relative;
+}
+#academicShowcase #academicHeader {
+  z-index: 2;
+}
+#academicShowcase #academicOverlay {
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+#campusShowcase {
+  background: url("/images/campus.jpeg") bottom center/cover no-repeat;
+  min-height: 350px;
+  position: relative;
+}
+#campusShowcase #campusHeader {
+  z-index: 2;
+}
+#campusShowcase #campusOverlay {
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
 #outreach a {
   text-decoration: none;
   color: black;
@@ -11265,6 +11319,24 @@ textarea.form-control-lg {
 #outreach a:hover h3, #outreach a:hover .h3 {
   background-color: black;
   color: white;
+}
+
+#familyShowcase {
+  background: url("/images/family.jpeg") bottom center/cover no-repeat;
+  min-height: 350px;
+  position: relative;
+}
+#familyShowcase #familyHeader {
+  z-index: 2;
+}
+#familyShowcase #familyOverlay {
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
 }
 
 #tigerLife a {

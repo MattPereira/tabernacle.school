@@ -113,7 +113,7 @@
 /////////// THE ABOUT PAGE
 #aboutShowcase {
   background: url("/images/tabernacleWide.jpg") bottom center / cover no-repeat;
-  min-height: 400px;
+  min-height: 350px;
   position: relative;
   #aboutHeader {
     z-index: 2;
@@ -166,8 +166,66 @@
 }
 
 
+/////////// ADMISSIONS PAGE
+#admissionsShowcase {
+  background: url("/images/admissions.jpeg") bottom center / cover no-repeat;
+  min-height: 350px;
+  position: relative;
+  #admissionHeader {
+    z-index: 2;
+  }
+  #admissionOverlay {
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+}
+
+
+////////////// THE ACADEMICS PAGE
+#academicShowcase {
+  background: url("/images/academics.jpeg") bottom center / cover no-repeat;
+  min-height: 350px;
+  position: relative;
+  #academicHeader {
+    z-index: 2;
+  }
+  #academicOverlay {
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+}
+
+
 
 /////////// THE CAMPUS PAGE
+#campusShowcase {
+  background: url("/images/campus.jpeg") bottom center / cover no-repeat;
+  min-height: 350px;
+  position: relative;
+  #campusHeader {
+    z-index: 2;
+  }
+  #campusOverlay {
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+}
+
 
 #outreach {
   a {
@@ -187,6 +245,24 @@
 
 
 ////////////// THE FAMILY PAGE
+#familyShowcase {
+  background: url("/images/family.jpeg") bottom center / cover no-repeat;
+  min-height: 350px;
+  position: relative;
+  #familyHeader {
+    z-index: 2;
+  }
+  #familyOverlay {
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+}
+
 
 #tigerLife {
   a {
