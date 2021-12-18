@@ -11129,6 +11129,15 @@ textarea.form-control-lg {
   border-top: 3px solid;
 }
 
+.center-cropped {
+  object-fit: cover;
+  /* Do not scale the image */
+  object-position: center;
+  /* Center the image within the element */
+  height: 300px;
+  width: 300px;
+}
+
 #pageNav .btn {
   background-color: white;
 }
@@ -11172,12 +11181,20 @@ textarea.form-control-lg {
   color: white;
 }
 
+#futureAction a {
+  color: white;
+}
+#futureAction a:hover {
+  background-color: black;
+}
+
 #core {
   min-height: 300px;
 }
 
 .carousel-control-next,
-.carousel-control-prev {
+.carousel-control-prev,
+.carousel-indicators {
   filter: invert(100%);
 }
 
@@ -11262,44 +11279,6 @@ textarea.form-control-lg {
   color: white;
 }
 
-#portals a {
-  text-decoration: none;
-  color: black;
-}
-#portals h3, #portals .h3 {
-  background-color: white;
-}
-#portals a:hover h3, #portals a:hover .h3 {
-  background-color: black;
-  color: white;
-}
-
-#techAgreement #sig-canvas {
-  border: 2px dotted #CCCCCC;
-  border-radius: 15px;
-  cursor: crosshair;
-}
-
-.center-cropped {
-  object-fit: cover;
-  /* Do not scale the image */
-  object-position: center;
-  /* Center the image within the element */
-  height: 300px;
-  width: 300px;
-}
-
-#dressCode table th {
-  background-color: #e0e0e0;
-}
-
-#futureAction a {
-  color: white;
-}
-#futureAction a:hover {
-  background-color: black;
-}
-
 #forms a {
   text-decoration: none;
 }
@@ -11320,6 +11299,24 @@ textarea.form-control-lg {
 #schoolInfo a:hover button {
   background-color: black;
   color: white;
+}
+
+#portals a {
+  text-decoration: none;
+  color: black;
+}
+#portals h3, #portals .h3 {
+  background-color: white;
+}
+#portals a:hover h3, #portals a:hover .h3 {
+  background-color: black;
+  color: white;
+}
+
+#techAgreement #sig-canvas {
+  border: 2px dotted #CCCCCC;
+  border-radius: 15px;
+  cursor: crosshair;
 }
 
 /*# sourceMappingURL=app.css.map */

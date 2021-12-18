@@ -1,20 +1,21 @@
-// FONTS
-
-
-
+///////////CUSTOM CLASSES & IDS I AM USING TO STYLE ACROSS WHOLE WEBSITE
 .showHead {
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 500;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
 }
 
-
-//SITE WIDE STYLES
 .section-hr {
   width: 150px;
   margin: auto;
   border-top: 3px solid;
 }
 
+.center-cropped {
+  object-fit: cover; /* Do not scale the image */
+  object-position: center; /* Center the image within the element */
+  height: 300px;
+  width: 300px;
+}
 
 #pageNav {
   .btn{
@@ -71,14 +72,27 @@
   }
 }
 
-//HOME PAGE
+//FOOTER
+#futureAction {
+  a {
+    color: white;
+  }
+  a:hover {
+    background-color: black;
+  }
+}
 
+
+
+
+//////// THE HOME PAGE
 #core {
   min-height: 300px;
 }
 
 .carousel-control-next,
-.carousel-control-prev /*, .carousel-indicators */ {
+.carousel-control-prev,
+.carousel-indicators {
   filter: invert(100%);
 }
 
@@ -87,9 +101,6 @@
     text-decoration: none;
     color: white;
   }
-  // h4 {
-  //   background-color: white;
-  // }
   a:hover {
     h4 {
       background-color: black;
@@ -99,7 +110,7 @@
 
 
 
-//ABOUT PAGE
+/////////// THE ABOUT PAGE
 #aboutShowcase {
   background: url("/images/tabernacleWide.jpg") bottom center / cover no-repeat;
   min-height: 400px;
@@ -156,7 +167,7 @@
 
 
 
-// CAMPUS OUTREACH
+/////////// THE CAMPUS PAGE
 
 #outreach {
   a {
@@ -175,7 +186,7 @@
 }
 
 
-// TIGER LIFE
+////////////// THE FAMILY PAGE
 
 #tigerLife {
   a {
@@ -192,72 +203,6 @@
     }
   }
 }
-
-//SCHOOL PORTALS
-#portals {
-  a {
-    text-decoration: none;
-    color: black;
-  }
-  h3 {
-    background-color: white;
-  }
-  a:hover {
-    h3 {
-      background-color: black;
-      color: white;
-    }
-  }
-}
-
-
-//Tech Agreement Form
-#techAgreement {
-  #sig-canvas {
-    border: 2px dotted #CCCCCC;
-    border-radius: 15px;
-    cursor: crosshair;
-  }
-}
-
-
-
-
-
-
-
-//GENERAL PURPOSE
-.center-cropped {
-  object-fit: cover; /* Do not scale the image */
-  object-position: center; /* Center the image within the element */
-  height: 300px;
-  width: 300px;
-}
-
-//Uniform Guidelines
-
-#dressCode {
-  table {
-    th {
-      background-color: rgb(224, 224, 224);
-    }
-  }
-}
-
-
-//FOOTER
-
-#futureAction {
-  a {
-    color: white;
-  }
-  a:hover {
-    background-color: black;
-  }
-}
-
-
-//TS FAMILY
 
 #forms {
   a {
@@ -286,5 +231,36 @@
       background-color: black;
       color: white;
     }
+  }
+}
+
+#portals {
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  h3 {
+    background-color: white;
+  }
+  a:hover {
+    h3 {
+      background-color: black;
+      color: white;
+    }
+  }
+}
+
+
+
+
+
+
+//JUNK CSS LOL
+//Tech Agreement Form
+#techAgreement {
+  #sig-canvas {
+    border: 2px dotted #CCCCCC;
+    border-radius: 15px;
+    cursor: crosshair;
   }
 }
