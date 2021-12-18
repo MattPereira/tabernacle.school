@@ -18,39 +18,9 @@ app.set('views', path.join(__dirname, '/views'))
 app.use(express.static(path.join(__dirname, 'public')))
 
 
-// app.use('/', homeRoutes)
+app.use('/', homeRoutes)
 app.use('/family', familyRoutes)
 app.use('/faculty', facultyRoutes)
-
-
-// MAIN PAGES
-app.get('/', (req, res) => {
-    res.render('home.ejs')
-})
-
-app.get('/about', (req, res) => {
-    res.render('about')
-})
-
-app.get('/admissions', (req, res) => {
-    res.render('admissions')
-})
-
-app.get('/academics', (req, res) => {
-    res.render('academics')
-})
-
-app.get('/campus', (req, res) => {
-    res.render('campus')
-})
-
-app.get('/contact', (req, res) => {
-    res.render('contact')
-})
-
-app.get('/employment', (req, res) => {
-    res.render('employment')
-})
 
 
 
