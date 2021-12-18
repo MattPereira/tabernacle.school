@@ -20,7 +20,7 @@ app.use(express.static(path.join(__dirname, 'public')))
 
 
 // app.use('/', homeRoutes)
-// app.use('/familyDashboard', familyRoutes)
+// app.use('/tsFamily', familyRoutes)
 app.use('/faculty', facultyRoutes)
 
 
@@ -79,48 +79,48 @@ app.get('/employment', (req, res) => {
 
 // FAMILY DASHBOARD PAGES
 
-app.get('/familyDashboard/newsletter', (req, res) => {
-    res.render('familyDashboard/newsletter')
+app.get('/tsFamily/newsletter', (req, res) => {
+    res.render('tsFamily/newsletter')
 })
 
-app.get('/familyDashboard/awards', (req, res) => {
-    res.render('familyDashboard/awards')
+app.get('/tsFamily/awards', (req, res) => {
+    res.render('tsFamily/awards')
 })
 
-app.get('/familyDashboard/orientationVideo', (req, res) => {
-    res.render('familyDashboard/orientationVideo')
+app.get('/tsFamily/orientationVideo', (req, res) => {
+    res.render('tsFamily/orientationVideo')
 })
 
-app.get('/familyDashboard/info/orientationInfo', (req, res) => {
-    res.render('familyDashboard/info/orientationInfo')
+app.get('/tsFamily/info/orientationInfo', (req, res) => {
+    res.render('tsFamily/info/orientationInfo')
 })
 
-app.get('/familyDashboard/info/factsHelp', (req, res) => {
-    res.render('familyDashboard/info/factsHelp')
+app.get('/tsFamily/info/factsHelp', (req, res) => {
+    res.render('tsFamily/info/factsHelp')
 })
 
-app.get('/familyDashboard/info/supplyList', (req, res) => {
-    res.render('familyDashboard/info/supplyList')
+app.get('/tsFamily/info/supplyList', (req, res) => {
+    res.render('tsFamily/info/supplyList')
 })
 
-app.get('/familyDashboard/info/jrHighDiscipline', (req, res) => {
-    res.render('familyDashboard/info/jrHighDiscipline')
+app.get('/tsFamily/info/jrHighDiscipline', (req, res) => {
+    res.render('tsFamily/info/jrHighDiscipline')
 })
 
-app.get('/familyDashboard/info/uniformGuidelines', (req, res) => {
-    res.render('familyDashboard/info/uniformGuidelines')
+app.get('/tsFamily/info/uniformGuidelines', (req, res) => {
+    res.render('tsFamily/info/uniformGuidelines')
 })
 
-app.get('/familyDashboard/forms/driverForm', (req, res) => {
-    res.render('familyDashboard/forms/driverForm')
+app.get('/tsFamily/forms/driverForm', (req, res) => {
+    res.render('tsFamily/forms/driverForm')
 })
 
-app.get('/familyDashboard/forms/techAgreement', (req, res) => {
-    res.render('familyDashboard/forms/techAgreement')
+app.get('/tsFamily/forms/techAgreement', (req, res) => {
+    res.render('tsFamily/forms/techAgreement')
 })
 
-app.get('/familyDashboard/forms/bicycleAgree', (req, res) => {
-    res.render('familyDashboard/forms/bicycleAgree')
+app.get('/tsFamily/forms/bicycleAgree', (req, res) => {
+    res.render('tsFamily/forms/bicycleAgree')
 })
 
 
