@@ -11202,8 +11202,11 @@ textarea.form-control-lg {
   text-decoration: none;
   color: white;
 }
+#educationLevels a:hover {
+  color: black;
+}
 #educationLevels a:hover h4, #educationLevels a:hover .h4 {
-  background-color: black;
+  background-color: white;
 }
 
 #aboutShowcase {
@@ -11386,7 +11389,7 @@ textarea.form-control-lg {
 }
 
 #techAgreement #sig-canvas {
-  border: 2px dotted #CCCCCC;
+  border: 2px dotted #cccccc;
   border-radius: 15px;
   cursor: crosshair;
 }
