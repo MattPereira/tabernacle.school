@@ -11397,11 +11397,8 @@ textarea.form-control-lg {
 #open-house {
   background-color: #c80e68;
 }
-#open-house h2, #open-house .h2 {
-  font-size: 3em;
-}
-#open-house h3, #open-house .h3 {
-  font-size: 2em;
+#open-house hr {
+  height: 3px;
 }
 
 /*# sourceMappingURL=app.css.map */
