@@ -11397,5 +11397,8 @@ textarea.form-control-lg {
 #open-house {
   background-color: #c80e68;
 }
+#open-house hr {
+  height: 3px;
+}
 
 /*# sourceMappingURL=app.css.map */
