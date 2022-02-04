@@ -11394,6 +11394,10 @@ textarea.form-control-lg {
   cursor: crosshair;
 }
 
+#open-house h5, #open-house .h5 {
+  font-size: larger;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
 #open-house hr {
   height: 3px;
 }
