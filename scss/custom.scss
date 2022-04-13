@@ -1,3 +1,7 @@
+// TO START SASS COMPILER FOR CHANGES USE:
+// sass --watch scss/main.scss:public/css/app.css
+
+
 ///////////CUSTOM CLASSES & IDS I AM USING TO STYLE ACROSS WHOLE WEBSITE
 .showHead {
   font-family: "Ubuntu", sans-serif;
@@ -102,6 +106,21 @@
     color: black;
     h4 {
       background-color: white;
+    }
+  }
+}
+
+
+#now-hiring {
+  background-color: #F3B700;
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  a:hover {
+    color: white;
+    h3 {
+      background-color: black;
     }
   }
 }

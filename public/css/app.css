@@ -11209,6 +11209,20 @@ textarea.form-control-lg {
   background-color: white;
 }
 
+#now-hiring {
+  background-color: #F3B700;
+}
+#now-hiring a {
+  text-decoration: none;
+  color: black;
+}
+#now-hiring a:hover {
+  color: white;
+}
+#now-hiring a:hover h3, #now-hiring a:hover .h3 {
+  background-color: black;
+}
+
 #aboutShowcase {
   background: url("/images/tabernacleWide.jpg") bottom center/cover no-repeat;
   min-height: 350px;
