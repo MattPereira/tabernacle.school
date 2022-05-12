@@ -113,16 +113,32 @@
 
 
 #now-hiring {
-  background-color: #F3B700;
+  background-color: black;
   a {
     text-decoration: none;
-    color: black;
+    color: white;
   }
   a:hover {
-    color: white;
+    color: black;
     h3 {
-      background-color: black;
+      background-color: white;
     }
+  }
+}
+
+#summer-daycare {
+  background-color: #f3b700;
+  
+  h3 {font-weight: 500;}
+  color: black;
+  a {
+    color: black;
+    font-size: 2.5rem;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #0000EE;
+    text-decoration: underline;
   }
 }
 

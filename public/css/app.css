@@ -11210,17 +11210,34 @@ textarea.form-control-lg {
 }
 
 #now-hiring {
-  background-color: #F3B700;
+  background-color: black;
 }
 #now-hiring a {
   text-decoration: none;
-  color: black;
-}
-#now-hiring a:hover {
   color: white;
 }
+#now-hiring a:hover {
+  color: black;
+}
 #now-hiring a:hover h3, #now-hiring a:hover .h3 {
-  background-color: black;
+  background-color: white;
+}
+
+#summer-daycare {
+  background-color: #f3b700;
+  color: black;
+}
+#summer-daycare h3, #summer-daycare .h3 {
+  font-weight: 500;
+}
+#summer-daycare a {
+  color: black;
+  font-size: 2.5rem;
+  text-decoration: none;
+}
+#summer-daycare a:hover {
+  color: #0000EE;
+  text-decoration: underline;
 }
 
 #aboutShowcase {
