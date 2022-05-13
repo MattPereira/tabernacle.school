@@ -113,14 +113,16 @@
 
 
 #now-hiring {
+  background-color: rgb(197, 35, 35);
    a {
     text-decoration: none;
-    color: black;
+    color: white;
+
   }
   a:hover {
-    color: white;
+    color: black;
     h2 {
-      background-color: black;
+      background-color: white;
     }
   }
 }
