@@ -113,15 +113,14 @@
 
 
 #now-hiring {
-  background-color: black;
-  a {
+   a {
     text-decoration: none;
-    color: white;
+    color: black;
   }
   a:hover {
-    color: black;
-    h3 {
-      background-color: white;
+    color: white;
+    h2 {
+      background-color: black;
     }
   }
 }
@@ -130,7 +129,6 @@
   background-color: #f3b700;
   color: black;
 
-  h3 {font-weight: 500;}
 
   a {
     color: black;

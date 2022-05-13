@@ -11209,26 +11209,20 @@ textarea.form-control-lg {
   background-color: white;
 }
 
-#now-hiring {
-  background-color: black;
-}
 #now-hiring a {
   text-decoration: none;
-  color: white;
-}
-#now-hiring a:hover {
   color: black;
 }
-#now-hiring a:hover h3, #now-hiring a:hover .h3 {
-  background-color: white;
+#now-hiring a:hover {
+  color: white;
+}
+#now-hiring a:hover h2, #now-hiring a:hover .h2 {
+  background-color: black;
 }
 
 #summer-daycare {
   background-color: #f3b700;
   color: black;
-}
-#summer-daycare h3, #summer-daycare .h3 {
-  font-weight: 500;
 }
 #summer-daycare a {
   color: black;
